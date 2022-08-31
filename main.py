@@ -1,17 +1,23 @@
+# 🚨 Don't change the code below 👇
+a = input("a: ")
+b = input("b: ")
+# 🚨 Don't change the code above 👆
+
+# Write a program that switches the values stored in the variables a and b. 
+
+####################################
 #Write your code below this line 👇
-#This is how you make a commit 
+
+temp = a 
+a = b
+b = temp
 
 
-# Write a program that prints the number of characters in a user's name. You might need to Google for a function that calculates the length of a string. 
+#Write your code above this line 👆
+####################################
 
-name = input('What is your name?')
-
-print(len(name))
-
-
-print(len(input('Whats your name')))
-
-
-
+# 🚨 Don't change the code below 👇
+print("a: " + a)
+print("b: " + b)
 
 
